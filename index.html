@@ -7,7 +7,8 @@
      <link href="assets/css/style.css" rel="stylesheet">
      <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <!------Google Fonts----->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 
         <title>Zuri Food</title>
     </head>
@@ -76,10 +77,10 @@
         <section id="our-services">
         <h2 id="service-header" class="yellow-header">Our Services</h2>
         <div class="service-grid">
-            <div class="service-img">
+            <div class="service-img" id="si-1">
               <img class="side-img" src="assets/img/OS1.png" loading="lazy">
             </div>
-            <div class="service-text">
+            <div class="service-text" id="st-1">
                 <h2 class="black-header">Corporate Events</h2>
                 <p class="text-block">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing amet vel facilisis arcu, ullamcorper ornare aliquam. Feugiat posuere magnis in et eget. 
@@ -91,7 +92,7 @@
             </div>
           </div>
           <div class="service-grid">
-            <div class="service-text">
+            <div class="service-text" id="st-2">
                 <h2 class="black-header">Hotel &amp; Residence</h2>
                 <p class="text-block">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing amet vel facilisis arcu, ullamcorper ornare aliquam. Feugiat posuere magnis in et eget. 
@@ -101,15 +102,15 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing amet vel facilisis arcu, ullamcorper ornare aliquam.
                 </p>
             </div>
-            <div class="service-img">
+            <div class="service-img" id="si-2">
               <img class="side-img" src="assets/img/OS2.png" loading="lazy">
             </div>
             </div>
             <div class="service-grid">
-              <div class="service-img">
+              <div class="service-img" id="si-3">
                 <img class="side-img" src="assets/img/OS3.png" loading="lazy">
               </div>
-              <div class="service-text">
+              <div class="service-text" id="st-3">
                   <h2 class="black-header">Private Event</h2>
                   <p class="text-block">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing amet vel facilisis arcu, ullamcorper ornare aliquam. Feugiat posuere magnis in et eget. 
@@ -121,7 +122,7 @@
               </div>
             </div>
             <div class="service-grid">
-              <div class="service-text">
+              <div class="service-text" id="st-4">
                   <h2 class="black-header">Wedding</h2>
                   <p class="text-block">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing amet vel facilisis arcu, ullamcorper ornare aliquam. Feugiat posuere magnis in et eget.
@@ -131,7 +132,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing amet vel facilisis arcu, ullamcorper ornare aliquam.
                   </p>
               </div>
-              <div class="service-img">
+              <div class="service-img" id="si-4">
                 <img class="side-img" src="assets/img/OS4.png" loading="lazy">
               </div>
               </div>
@@ -140,11 +141,11 @@
         <section id="customer-stories">
         <div id="cs-grid">
         <div id="cs-header-grid">
-          <p id="cs-testimonial">Testimonials</p>
+          <p id="cs-testimonial" class="text-block">Testimonials</p>
          <h2 class="black-header">Customer Stories</h2>
         </div>
         <div id="cs-details-grid">
-          <p id="cs-text">Never had better service in my life.</p>
+          <p id="cs-text" class="text-block">Never had better service in my life.</p>
           <div id="cs-img-text">
             <img id="cs-img" width="60" height="60" src="assets/img/CS1.png" loading="lazy"/>
             <h4 id="cs-name" class="black-header">Ezekwesili Obinna</h4>
@@ -160,18 +161,18 @@
             <div id="contact">
               <h2 class="yellow-header">Contact Us</h2>
               <h2 class="black-header">Wouldn’t it be Amazing to Meet You</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p class="text-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               <h4 class="black-header">Abuja Branch</h4>
-                <p>Nwachukwu Solomon St, Lugbe Abuja</p>
+                <p class="text-block">Nwachukwu Solomon St, Lugbe Abuja</p>
               <h4 class="black-header">Lagos Branch</h4>
-                <p>Near Railway Crossing, Ilupeju, Agege
+                <p class="text-block">Near Railway Crossing, Ilupeju, Agege
                   Lagos</p>
             </div>
             
             <div id="reach-out">
              <h5 class="black-header uppercase text-center">Request a Quote</h5>
-             <p class="text-center">Fill out the form and receive a quote conveniently online</p>
+             <p class="text-center text-block">Fill out the form and receive a quote conveniently online</p>
              <form>
               <div class="form-group">
                 <input type="text" class="form-control" id="fullname" placeholder="Full Name">

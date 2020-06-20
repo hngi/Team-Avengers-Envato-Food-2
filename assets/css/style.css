@@ -58,7 +58,7 @@ html,body{
     font-weight: bold;
     color: white;
 }
-.text-block{
+.text-block,#main-nav{
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
@@ -251,6 +251,11 @@ body{
         padding-left: 15%;
     }
 }
+@media screen and (min-width: 541px) and (max-width: 1000px){
+    #reach-out{
+        padding-top: 10%;
+    }
+}
 @media screen and (min-width: 995px){
  
     #customer-stories{
@@ -263,6 +268,22 @@ body{
         background-repeat: no-repeat;
         
     }
+}
+@media screen and (max-width: 799px){
+ 
+    #st-1{
+        order:1;        
+    }
+    #si-1{
+        order:2;        
+    }
+    #st-3{
+        order:1;        
+    }
+    #si-3{
+        order:2;        
+    }
+  
 }
 @media screen and (min-width: 992px){
     #main-nav{

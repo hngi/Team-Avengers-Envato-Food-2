@@ -135,7 +135,7 @@ body{
 /*------------ Customer Stories Section -----------*/
 #customer-stories{
     
-    width: 92%;
+    width: 100%;
     height:auto;
     background: url(../img/story-bg.png);
     background-position: center ;
@@ -249,6 +249,29 @@ body{
 @media screen and (min-width: 995px) and (max-width: 1240px){
     #cs-header-grid{
         padding-left: 15%;
+    }
+    #customer-stories{
+    
+        width: 92%;
+        height:auto;
+        background: url(../img/story-bg.png);
+        background-position: center ;
+        background-size: cover; 
+        background-repeat: no-repeat;
+        
+    }
+}
+@media screen and (min-width: 995px){
+ 
+    #customer-stories{
+    
+        width: 92%;
+        height:auto;
+        background: url(../img/story-bg.png);
+        background-position: center ;
+        background-size: cover; 
+        background-repeat: no-repeat;
+        
     }
 }
 @media screen and (min-width: 992px){

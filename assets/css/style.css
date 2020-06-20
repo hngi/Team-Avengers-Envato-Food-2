@@ -8,12 +8,11 @@ html,body{
     width: 100%;
     overflow-x: hidden;
 }
-body{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Symbol","Noto Color Emoji"!important
-}
+
 /*-----Imports------------*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
 
 /*-----Common use classes-------*/
 .uppercase{
@@ -35,7 +34,7 @@ body{
 }
 .yellow-button{
     margin: 10px auto;
-    padding: 10px 18px 10px 18px;
+    padding: 20px 40px;
     border: 1px solid #FAA72F;
     color: white;
     background-color:#FAA72F;
@@ -99,7 +98,7 @@ body{
 }
 #hero-img{
     width: 100%;
-    height: 500px;
+    height: 100vh;
     background: url(../img/hero-img.png);
     background-position: center center;
     background-size: cover; 
@@ -136,7 +135,7 @@ body{
 /*------------ Customer Stories Section -----------*/
 #customer-stories{
     
-    width: 100%;
+    width: 92%;
     height:auto;
     background: url(../img/story-bg.png);
     background-position: center ;
@@ -147,8 +146,9 @@ body{
 #cs-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,500px));
-    padding-top: 5%;
+    padding: 5%;
     justify-content: center;
+    align-content: initial;
    
     
 }
@@ -181,7 +181,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,500px));
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 5%;
 }
 #date{
@@ -253,7 +253,7 @@ body{
 }
 @media screen and (min-width: 992px){
     #main-nav{
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }

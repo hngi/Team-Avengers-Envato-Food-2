@@ -250,16 +250,6 @@ body{
     #cs-header-grid{
         padding-left: 15%;
     }
-    #customer-stories{
-    
-        width: 92%;
-        height:auto;
-        background: url(../img/story-bg.png);
-        background-position: center ;
-        background-size: cover; 
-        background-repeat: no-repeat;
-        
-    }
 }
 @media screen and (min-width: 995px){
  

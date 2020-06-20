@@ -76,7 +76,14 @@ body{
     font-family: 'Pacifico', cursive;
     font-style: italic;
 }
-
+.fadeout{
+    opacity: 0;
+    transition: 5s opacity;
+}
+.fadein{
+    opacity: 1;
+    transition: 2s opacity;
+}
 /*------Background------------*/
 body{
     background-color: #E5E5E5;
@@ -225,17 +232,18 @@ body{
         #reach-out{
             padding: 5%;
         }
-        #contact{
-            padding: 5%;
-        }
-        #cs-grid{
-            padding: 5%;
+
+        #cs-header-grid, #cs-details-grid, #cs-img-text, #contact, #hero-section{
+            padding: 30px;
         }
         #about-text{
-            padding: 10%;
+            padding: 12%;
         }
         .service-text{
-            padding: 10%;
+            padding: 12%;
+        }
+        #hero-cta{
+            padding: 12%;
         }
 }
 @media screen and (min-width: 995px) and (max-width: 1240px){

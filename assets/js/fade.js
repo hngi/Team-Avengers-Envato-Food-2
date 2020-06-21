@@ -58,10 +58,11 @@ function runFade(){
 }
 function changeStory(){
   var counter=randomizer(stories);
-
+  
+  picture.src= stories[counter].picture;
   testimonial.innerText = stories[counter].story;
   customer.innerText = stories[counter].name;
-  picture.src= stories[counter].picture;
+  
   storyArea.style.opacity="1";
  
 }

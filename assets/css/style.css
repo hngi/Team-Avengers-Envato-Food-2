@@ -75,14 +75,10 @@ html,body{
     font-family: 'Pacifico', cursive;
     font-style: italic;
 }
-.fadeout{
-    opacity: 0;
-    transition: 5s opacity;
+.bg-white{
+background-color: white;
 }
-.fadein{
-    opacity: 1;
-    transition: 2s opacity;
-}
+
 /*------Background------------*/
 body{
     background-color: #E5E5E5;
@@ -145,12 +141,15 @@ body{
 }
 #cs-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px,500px));
+    grid-template-columns: repeat(auto-fit, minmax(250px,500px));
     padding: 5%;
     justify-content: center;
     align-content: initial;
    
     
+}
+#cs-details-grid{
+    transition: 3s opacity;
 }
 #cs-testimonial{
     padding-left: 50px;
@@ -219,15 +218,8 @@ body{
     padding: 10px 10px 10px 0;
 }
 /*------------ Media Queries ---------------*/
-@media screen and (max-width: 768px) {
-#wwd-text{
-    order: 1;
-}
-#wwd-image{
-    order: 2;
-}
 
-}
+
     @media screen and (max-width: 540px) {
         #reach-out{
             padding: 5%;
@@ -245,10 +237,16 @@ body{
         #hero-cta{
             padding: 12%;
         }
+        #hero-img{
+            display: none;
+        }
+        #about-img{
+            display: none;
+        }
 }
-@media screen and (min-width: 995px) and (max-width: 1240px){
+@media screen and (min-width: 1208px) and (max-width: 1240px){
     #cs-header-grid{
-        padding-left: 15%;
+        padding-left: 10%;
     }
 }
 @media screen and (min-width: 541px) and (max-width: 1000px){
@@ -271,17 +269,17 @@ body{
 }
 @media screen and (max-width: 799px){
  
-    #st-1{
-        order:1;        
-    }
-    #si-1{
+    #st-2{
         order:2;        
     }
-    #st-3{
+    #si-2{
         order:1;        
     }
-    #si-3{
+    #st-4{
         order:2;        
+    }
+    #si-4{
+        order:1;        
     }
   
 }

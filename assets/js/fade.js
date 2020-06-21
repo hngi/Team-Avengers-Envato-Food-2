@@ -8,37 +8,31 @@ let current;
 let stories = [
    
     {
-      story: "Excellent Food!",
-      name: "Balarabe Bomboy",
+      story: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et curabitur mauris et laoreet ac, tincidunt neque, integer euismod",
+      name: "Bimbo Balarabe",
       picture: "assets/img/CS2.png",
-    },
-    {
-        story: "The website design was easy to use and the delivery came quicky.",
-        name: "Cosmos Calistus",
-        picture: "assets/img/CS1.png",
     }, 
     {
-        story: "Everyone who attended the party they catered for me kept on asking who made the food.",
-        name: "Daniel Darlington",
-        picture: "assets/img/CS2.png",
-    },  
+      story: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et curabitur mauris et laoreet ac, tincidunt neque, integer euismod",
+      name: "Erling Ekpeyong",
+      picture: "assets/img/CS5.jpg",
+  },  
+  {
+    story: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et curabitur mauris et laoreet ac, tincidunt neque, integer euismod",
+    name: "Fareeda Faroukh",
+    picture: "assets/img/CS4.jpg",
+},  
   ];
 
 function fading(){
  //--- Fade Out
- storyArea.classList.remove("fadein");
- storyArea.classList.add("fadeout");
+
+storyArea.style.opacity="0";
  //---- Change Story
- var counter=randomizer(stories);
-
- testimonial.innerText = stories[counter].story;
- customer.innerText = stories[counter].name;
- picture.src= stories[counter].picture;
-
  
+ setTimeout(changeStory,3000)
  //----- Fade Back in
- storyArea.classList.remove("fadeout");
- storyArea.classList.add("fadein");
+ 
 
 }
 
@@ -61,5 +55,14 @@ function randomizer(arr){
 };
 function runFade(){
     setInterval(fading,10000);
+}
+function changeStory(){
+  var counter=randomizer(stories);
+
+  testimonial.innerText = stories[counter].story;
+  customer.innerText = stories[counter].name;
+  picture.src= stories[counter].picture;
+  storyArea.style.opacity="1";
+ 
 }
 runFade();

@@ -29,7 +29,7 @@ html,body{
     background-color: #0F2531;
 }
 
-.current-page{
+.active{
     color: #FAA72F !important;
 }
 .yellow-button{
@@ -82,6 +82,7 @@ background-color: white;
 /*------Background------------*/
 body{
     background-color: #E5E5E5;
+    position: relative;
  
 }
 

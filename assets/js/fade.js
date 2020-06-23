@@ -3,6 +3,8 @@ const storyArea = document.getElementById("cs-details-grid");
 const testimonial = document.getElementById("cs-text");
 const customer = document.getElementById("cs-name");
 const picture = document.getElementById("cs-img");
+const navbar = document.getElementById("main-nav");
+
 let prev;
 let current;
 let stories = [
@@ -66,4 +68,5 @@ function changeStory(){
   storyArea.style.opacity="1";
  
 }
+
 runFade();
